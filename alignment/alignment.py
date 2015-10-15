@@ -121,7 +121,9 @@ def alignment(v, w):
 
 
 def main():
-    v, w = sys.argv[1], sys.argv[2]
+    with open("example.txt", 'r') as input_file:
+        v = input_file.readline().strip()
+        w = input_file.readline().strip()
     print alignment(v, w)
 
 
