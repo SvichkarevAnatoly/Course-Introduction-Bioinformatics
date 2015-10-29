@@ -1,0 +1,28 @@
+\documentclass{article} % Класс печатного документа
+
+\usepackage{graphicx} % Вставка изображений
+\usepackage[utf8]{inputenc} % Кодировка исходного текста - utf8
+\usepackage[english,russian]{babel} % Поддержка языка - русского с английским
+\usepackage{indentfirst} % Отступ в первом абзаце
+\usepackage{tabularx} % Для создания таблицы во всю ширину текста
+
+% Определение нового типа колонки
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
+
+\begin{document} % Конец преамбулы, начало текста
+\textbf{Студент:} Свичкарев Анатолий Владленович
+
+\textbf{Ген:}
+\begin{center}
+	\begin{tabularx}{\textwidth}{|c|Y|} \hline
+		Названиe & \textbf{P53} (Также известен как: CG10873; CG31325;
+			   CG33336; D-p53; Dm-P53; Dmel\textbackslash CG33336;
+			   dmp53; Dmp53; DmP53; DMP53; dp53; Dp53; prac) \\ \hline
+		Расположение на хромосоме & Chr: 3R, 23049657..23054082,
+			   		    комплементарная цепь (Релиз 6.01)\\ \hline
+		Функция & белок кодирующая (контроль апоптоза,
+			  деление клетки и пролиферация)\\ \hline
+	\end{tabularx}
+\end{center}
+
+\end{document} % Конец документа
