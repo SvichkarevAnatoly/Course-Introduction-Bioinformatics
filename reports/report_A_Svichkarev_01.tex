@@ -3,18 +3,26 @@
 \usepackage{graphicx} % Вставка изображений
 \usepackage[utf8]{inputenc} % Кодировка исходного текста - utf8
 \usepackage[english,russian]{babel} % Поддержка языка - русского с английским
-\usepackage{indentfirst} % Отступ в первом абзаце
 \usepackage{tabularx} % Для создания таблицы во всю ширину текста
+\usepackage{xcolor,colortbl} % Для определения цвета
 
-% Определение нового типа колонки
+% Отключение отступа перед новым параграфом
+\setlength\parindent{0pt}
+
+% Определение серого цвета для колонки
+\definecolor{Gray}{gray}{0.85}
+
+% Определение колонки выровненной по центру на оставшееся место по ширине
 \newcolumntype{Y}{>{\centering\arraybackslash}X}
+% Определение серой колонки
+\newcolumntype{g}{>{\columncolor{Gray}}c}
 
 \begin{document} % Конец преамбулы, начало текста
 \textbf{Студент:} Свичкарев Анатолий Владленович
 
 \textbf{Ген:}
 \begin{center}
-	\begin{tabularx}{\textwidth}{|c|Y|} \hline
+	\begin{tabularx}{\textwidth}{|g|Y|} \hline
 		Названиe & \textbf{P53} (Также известен как: CG10873; CG31325;
 			   CG33336; D-p53; Dm-P53; Dmel\textbackslash CG33336;
 			   dmp53; Dmp53; DmP53; DMP53; dp53; Dp53; prac) \\ \hline
