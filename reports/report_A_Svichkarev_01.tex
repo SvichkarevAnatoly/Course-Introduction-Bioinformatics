@@ -6,6 +6,7 @@
 \usepackage{tabularx} % Для создания таблицы во всю ширину текста
 \usepackage{xcolor,colortbl} % Для определения цвета
 
+% Папка со всеми svg картинками
 \setsvg{svgpath = tree/}
 
 % Отключение отступа перед новым параграфом
@@ -84,16 +85,25 @@
 \end{center}
 
 \pagebreak
+
 \textbf{Филогенетические деревья для полного выравнивания:}
 
 \textbf{Minimum-evolution:}
 
+\begin{figure}[h]
+	\includesvg[width=0.5\textwidth]{alignment_ME}
+\end{figure}
+
 \textbf{Maximum likehood:}
+
+\begin{figure}[h]
+	\includesvg[width=0.5\textwidth]{alignment_ML}
+\end{figure}
 
 \textbf{Neighbor-Joining:}
 
 \begin{figure}[h]
-	\includesvg[width=\textwidth]{image2}
+	\includesvg[width=0.5\textwidth]{alignment_NJ}
 \end{figure}
 
 \textbf{Филогенетические деревья для каждого фрагмента \mbox{выравнивания}:}
@@ -102,26 +112,62 @@
 
 \textbf{Minimum-evolution:}
 
+\begin{figure}[h]
+	\includesvg[width=0.5\textwidth]{block1_ME}
+\end{figure}
+
 \textbf{Maximum likehood:}
 
+\begin{figure}[h]
+	\includesvg[width=0.5\textwidth]{block1_ML}
+\end{figure}
+
 \textbf{Neighbor-Joining:}
+
+\begin{figure}[h]
+	\includesvg[width=0.5\textwidth]{block1_NJ}
+\end{figure}
 
 
 \textbf{Фрагмент 2:}
 
 \textbf{Minimum-evolution:}
 
+\begin{figure}[h]
+	\includesvg[width=0.5\textwidth]{block2_ME}
+\end{figure}
+
 \textbf{Maximum likehood:}
 
+\begin{figure}[h]
+	\includesvg[width=0.5\textwidth]{block2_ML}
+\end{figure}
+
 \textbf{Neighbor-Joining:}
+
+\begin{figure}[h]
+	\includesvg[width=0.5\textwidth]{block2_NJ}
+\end{figure}
 
 
 \textbf{Фрагмент 3:}
 
 \textbf{Minimum-evolution:}
 
+\begin{figure}[h]
+	\includesvg[width=0.5\textwidth]{block3_ME}
+\end{figure}
+
 \textbf{Maximum likehood:}
 
+\begin{figure}[h]
+	\includesvg[width=0.5\textwidth]{block3_ML}
+\end{figure}
+
 \textbf{Neighbor-Joining:}
+
+\begin{figure}[h]
+	\includesvg[width=0.5\textwidth]{block3_NJ}
+\end{figure}
 
 \end{document} % Конец документа

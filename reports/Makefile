@@ -10,6 +10,7 @@ pdf:	${report}.tex blastn_align.png
 
 clean_tmp:
 	rm -f ${report}.{ps,log,aux,out,dvi,bbl,blg}
+	rm -f tree/*.{pdf,pdf_tex}
 
 clean:
 	rm -f ${report}.{ps,pdf,log,aux,out,dvi,bbl,blg}

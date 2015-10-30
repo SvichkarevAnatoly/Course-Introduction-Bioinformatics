@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg width="1175" height="689" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g style="stroke:black;fill:lightgreen" transform="translate(30,30)">
+<line x1="413" y1="79" x2="413" y2="141" style="stroke:blue; stroke-width:1"/>
+<line x1="413" y1="141" x2="413" y2="141" style="stroke:blue; stroke-width:1"/>
+<line x1="413" y1="79" x2="413" y2="16" style="stroke:blue; stroke-width:1"/>
+<line x1="413" y1="16" x2="413" y2="16" style="stroke:blue; stroke-width:1"/>
+<line x1="16" y1="455" x2="16" y2="518" style="stroke:blue; stroke-width:1"/>
+<line x1="16" y1="518" x2="16" y2="518" style="stroke:blue; stroke-width:1"/>
+<line x1="16" y1="455" x2="16" y2="392" style="stroke:blue; stroke-width:1"/>
+<line x1="16" y1="392" x2="16" y2="392" style="stroke:blue; stroke-width:1"/>
+<line x1="16" y1="456" x2="16" y2="643" style="stroke:blue; stroke-width:1"/>
+<line x1="16" y1="643" x2="16" y2="643" style="stroke:blue; stroke-width:1"/>
+<line x1="215" y1="173" x2="215" y2="267" style="stroke:blue; stroke-width:1"/>
+<line x1="215" y1="267" x2="1009" y2="267" style="stroke:blue; stroke-width:1"/>
+<line x1="215" y1="173" x2="215" y2="79" style="stroke:blue; stroke-width:1"/>
+<line x1="215" y1="79" x2="413" y2="79" style="stroke:blue; stroke-width:1"/>
+<line x1="16" y1="456" x2="16" y2="455" style="stroke:blue; stroke-width:1"/>
+<line x1="16" y1="455" x2="16" y2="455" style="stroke:blue; stroke-width:1"/>
+<line x1="16" y1="456" x2="16" y2="173" style="stroke:blue; stroke-width:1"/>
+<line x1="16" y1="173" x2="215" y2="173" style="stroke:blue; stroke-width:1"/>
+<text x="20" y="650" font-weight = "10" font-family="verdana" fill="black" font-size="18">Drosophila\_simulans</text>
+<text x="20" y="525" font-weight = "10" font-family="verdana" fill="black" font-size="18">Drosophila\_sechellia</text>
+<text x="20" y="399" font-weight = "10" font-family="verdana" fill="black" font-size="18">Drosophila\_erecta</text>
+<text x="1013" y="274" font-weight = "10" font-family="verdana" fill="black" font-size="18">Drosophila\_melanogaster</text>
+<text x="417" y="148" font-weight = "10" font-family="verdana" fill="black" font-size="18">Drosophila\_pseudoobscura\_pseudoobscura</text>
+<text x="417" y="23" font-weight = "10" font-family="verdana" fill="black" font-size="18">Drosophila\_persimilis</text>
+</g></svg>
