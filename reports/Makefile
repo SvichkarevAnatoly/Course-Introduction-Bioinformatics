@@ -6,7 +6,7 @@ read:	pdf clean_tmp
 	evince ${report}.pdf &
 	
 pdf:	${report}.tex blastn_align.png
-	pdflatex ${report}.tex
+	pdflatex --shell-escape ${report}.tex
 
 clean_tmp:
 	rm -f ${report}.{ps,log,aux,out,dvi,bbl,blg}

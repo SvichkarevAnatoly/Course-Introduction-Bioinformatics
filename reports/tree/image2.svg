@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg width="1175" height="689" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g style="stroke:black;fill:lightgreen" transform="translate(30,30)">
+<line x1="925" y1="240" x2="925" y2="285" style="stroke:blue; stroke-width:1"/>
+<line x1="925" y1="285" x2="982" y2="285" style="stroke:blue; stroke-width:1"/>
+<line x1="925" y1="240" x2="925" y2="195" style="stroke:blue; stroke-width:1"/>
+<line x1="925" y1="195" x2="1009" y2="195" style="stroke:blue; stroke-width:1"/>
+<line x1="580" y1="61" x2="580" y2="106" style="stroke:blue; stroke-width:1"/>
+<line x1="580" y1="106" x2="598" y2="106" style="stroke:blue; stroke-width:1"/>
+<line x1="580" y1="61" x2="580" y2="16" style="stroke:blue; stroke-width:1"/>
+<line x1="580" y1="16" x2="592" y2="16" style="stroke:blue; stroke-width:1"/>
+<line x1="95" y1="598" x2="95" y2="643" style="stroke:blue; stroke-width:1"/>
+<line x1="95" y1="643" x2="129" y2="643" style="stroke:blue; stroke-width:1"/>
+<line x1="95" y1="598" x2="95" y2="553" style="stroke:blue; stroke-width:1"/>
+<line x1="95" y1="553" x2="126" y2="553" style="stroke:blue; stroke-width:1"/>
+<line x1="44" y1="419" x2="44" y2="464" style="stroke:blue; stroke-width:1"/>
+<line x1="44" y1="464" x2="120" y2="464" style="stroke:blue; stroke-width:1"/>
+<line x1="44" y1="419" x2="44" y2="374" style="stroke:blue; stroke-width:1"/>
+<line x1="44" y1="374" x2="133" y2="374" style="stroke:blue; stroke-width:1"/>
+<line x1="233" y1="150" x2="233" y2="240" style="stroke:blue; stroke-width:1"/>
+<line x1="233" y1="240" x2="925" y2="240" style="stroke:blue; stroke-width:1"/>
+<line x1="233" y1="150" x2="233" y2="61" style="stroke:blue; stroke-width:1"/>
+<line x1="233" y1="61" x2="580" y2="61" style="stroke:blue; stroke-width:1"/>
+<line x1="16" y1="420" x2="16" y2="598" style="stroke:blue; stroke-width:1"/>
+<line x1="16" y1="598" x2="95" y2="598" style="stroke:blue; stroke-width:1"/>
+<line x1="16" y1="420" x2="16" y2="419" style="stroke:blue; stroke-width:1"/>
+<line x1="16" y1="419" x2="44" y2="419" style="stroke:blue; stroke-width:1"/>
+<line x1="16" y1="420" x2="16" y2="150" style="stroke:blue; stroke-width:1"/>
+<line x1="16" y1="150" x2="233" y2="150" style="stroke:blue; stroke-width:1"/>
+<text x="133" y="650" font-weight = "10" font-family="verdana" fill="black" font-size="18">Drosophila\_simulans</text>
+<text x="130" y="560" font-weight = "10" font-family="verdana" fill="black" font-size="18">Drosophila\_sechellia</text>
+<text x="124" y="471" font-weight = "10" font-family="verdana" fill="black" font-size="18">Drosophila\_erecta</text>
+<text x="137" y="381" font-weight = "10" font-family="verdana" fill="black" font-size="18">Drosophila\_yakuba</text>
+<text x="986" y="292" font-weight = "10" font-family="verdana" fill="black" font-size="18">Drosophila\_melanogaster</text>
+<text x="1013" y="202" font-weight = "10" font-family="verdana" fill="black" font-size="18">Drosophila\_mauritiana</text>
+<text x="602" y="113" font-weight = "10" font-family="verdana" fill="black" font-size="18">Drosophila\_pseudoobscura\_pseudoobscura</text>
+<text x="596" y="23" font-weight = "10" font-family="verdana" fill="black" font-size="18">Drosophila\_persimilis</text>
+</g></svg>

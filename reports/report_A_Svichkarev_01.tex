@@ -1,10 +1,12 @@
 \documentclass{article} % Класс печатного документа
 
-\usepackage{graphicx} % Вставка изображений
+\usepackage{svg} % Вставка svg картинок (используется incscape)
 \usepackage[utf8]{inputenc} % Кодировка исходного текста - utf8
 \usepackage[english,russian]{babel} % Поддержка языка - русского с английским
 \usepackage{tabularx} % Для создания таблицы во всю ширину текста
 \usepackage{xcolor,colortbl} % Для определения цвета
+
+\setsvg{svgpath = tree/}
 
 % Отключение отступа перед новым параграфом
 \setlength\parindent{0pt}
@@ -54,7 +56,7 @@
 \pagebreak
 \textbf{Визуальные результаты поиска BLASTN:}
 
-\includegraphics[width=\textwidth]{blastn_align.png}
+\includegraphics[width=\textwidth]{blastn_align}
 
 \textbf{Артефакты выравнивания:}
 
@@ -80,5 +82,46 @@
 	3 & [4217..4229] & 12 \\ \hline
 \end{tabularx}
 \end{center}
+
+\pagebreak
+\textbf{Филогенетические деревья для полного выравнивания:}
+
+\textbf{Minimum-evolution:}
+
+\textbf{Maximum likehood:}
+
+\textbf{Neighbor-Joining:}
+
+\begin{figure}[h]
+	\includesvg[width=\textwidth]{image2}
+\end{figure}
+
+\textbf{Филогенетические деревья для каждого фрагмента \mbox{выравнивания}:}
+
+\textbf{Фрагмент 1:}
+
+\textbf{Minimum-evolution:}
+
+\textbf{Maximum likehood:}
+
+\textbf{Neighbor-Joining:}
+
+
+\textbf{Фрагмент 2:}
+
+\textbf{Minimum-evolution:}
+
+\textbf{Maximum likehood:}
+
+\textbf{Neighbor-Joining:}
+
+
+\textbf{Фрагмент 3:}
+
+\textbf{Minimum-evolution:}
+
+\textbf{Maximum likehood:}
+
+\textbf{Neighbor-Joining:}
 
 \end{document} % Конец документа
