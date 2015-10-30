@@ -5,7 +5,7 @@ report=report_A_Svichkarev_01
 read:	pdf clean_tmp
 	evince ${report}.pdf &
 	
-pdf:	${report}.tex
+pdf:	${report}.tex blastn_align.png
 	pdflatex ${report}.tex
 
 clean_tmp:
