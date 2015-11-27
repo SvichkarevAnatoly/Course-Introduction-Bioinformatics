@@ -30,10 +30,10 @@ def lcs_backtrack(v, w):
             2 if v[i - 1] == w[j - 1] else -1):
                 backtrack[i - 1][j - 1] = "↘"
 
-    for i in range(v_len + 1):
-        for j in range(w_len + 1):
-            sys.stdout.write(str(s[i][j]) + " ")
-        sys.stdout.write("\n")
+    # for i in range(v_len + 1):
+    #     for j in range(w_len + 1):
+    #         sys.stdout.write(str(s[i][j]) + " ")
+    #     sys.stdout.write("\n")
 
     return backtrack, s[v_len][w_len]
 
@@ -70,6 +70,17 @@ def parse_input_txt(file_name):
         v = f.readline().strip()
         w = f.readline().strip()
     return v, w
+
+
+def alignment(v, w):
+    backtrack, score = lcs_backtrack(v, w)
+    align = {v: [], w: []}
+    v_last, w_last = len(v) - 1, len(w) - 1
+    output_lcs(backtrack, v, w, v_last, w_last, align)
+
+    align_v = "".join(align[v])
+    align_w = "".join(align[w])
+    return align_v, align_w, score
 
 
 def main():
